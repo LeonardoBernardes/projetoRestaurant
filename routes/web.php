@@ -21,8 +21,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('category','CategoryController');
 Route::resource('restaurant','RestaurantController');
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
